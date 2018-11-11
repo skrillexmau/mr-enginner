@@ -13,28 +13,55 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body>
+<body class="grey lighten-3">
+
+    <!-- Navbar start -->
     <nav class="transparent z-depth-0">
         <div class="nav-wrapper container">
-            <a href="index.html" class="brand-logo grey-text text-darken-4">Mr. Enginner</a>
+            <a href="index.html" class="brand-logo grey-text text-darken-4 hide">Mr. Enginner</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html" class="grey-text text-darken-4">Sass</a></li>
-                <li><a href="badges.html" class="grey-text text-darken-4">Components</a></li>
-                <li><a href="collapsible.html" class="grey-text text-darken-4">JavaScript</a></li>
+                <li><a href="collapsible.html" class="grey-text text-darken-4">Quienes Somos</a></li>
+                <li><a href="badges.html" class="grey-text text-darken-4">Servicios</a></li>
+                <li><a href="sass.html" class="grey-text text-darken-4">Contacto</a></li>
             </ul>
             <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons grey-text text-darken-4">menu</i></a>
         </div>
     </nav>
-    <ul id="slide-out" class="sidenav">
-        <img src="assets/media/img/Logo.svg">
-        <li><a href="#!" class="sidenav-close"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!" class="sidenav-close">Second Link</a></li>
+    <!-- Navbar end -->
+
+    <!-- Sidenav start -->
+    <ul id="slide-out" class="sidenav grey lighten-4">
+        <!-- <img src="assets/media/img/Logo.svg" class="responsive-img">
         <li>
             <div class="divider"></div>
-        </li>
-        <li><a class="subheader" class="sidenav-close">Subheader</a></li>
-        <li><a class="waves-effect sidenav-close" href="#!">Third Link With Waves</a></li>
+        </li> -->
+        <li><a href="collapsible.html" class="grey-text waves-effect text-darken-4 sidenav-close">Quienes Somos</a></li>
+        <div class="divider"></div>
+        <li><a href="badges.html" class="grey-text waves-effect text-darken-4 sidenav-close">Servicios</a></li>
+        <div class="divider"></div>
+        <li><a href="sass.html" class="grey-text waves-effect text-darken-4 sidenav-close">Contacto</a></li>
+        <div class="divider"></div>
     </ul>
+    <!-- Sidenav end -->
+
+    <!-- Header start -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="logo center-align">
+                        <img src="assets/media/img/Logo.svg" alt="Mr. Enginner" class="responsive-img" id="logo">
+                    </div>
+                    <div class="subheader center-align">
+                        <h3>Comprometidos con tu<br>empresa y clientes.</h3>
+                        <h5>para resolver sus dudas y problemas<br>con sus equipos de computo</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
     <!-- Scripts -->
     <script src="assets/materialize/js/materialize.min.js"></script>
     <script src="assets/js/init.js"></script>
