@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.0.39/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/sdk/map.css">
 </head>
 
 <body class="grey lighten-4">
@@ -22,7 +23,7 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#quienesSomos" class="grey-text text-darken-4">Quienes Somos</a></li>
                 <li><a href="#servicios" class="grey-text text-darken-4">Servicios</a></li>
-                <li><a href="sass.html" class="grey-text text-darken-4">Contacto</a></li>
+                <li><a href="#contacto" class="grey-text text-darken-4">Contacto</a></li>
             </ul>
             <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only grey-text text-darken-4"><span class="mdi mdi-menu"></span></a>
         </div>
@@ -35,7 +36,7 @@
         <div class="divider"></div>
         <li><a href="#servicios" class="grey-text waves-effect text-darken-4 sidenav-close">Servicios</a></li>
         <div class="divider"></div>
-        <li><a href="sass.html" class="grey-text waves-effect text-darken-4 sidenav-close">Contacto</a></li>
+        <li><a href="#contacto" class="grey-text waves-effect text-darken-4 sidenav-close">Contacto</a></li>
         <div class="divider"></div>
     </ul>
     <!-- Sidenav end -->
@@ -127,58 +128,106 @@
                 </section>
             </div>
         </div>
-        <div class="container">
-            <div class="valign-wrapper" id="servicios">
-                <div class="row">
-                    <div class="col s12 center-align">
-                        <h3>¿Que hacemos?</h3>
-                        <hr>
-                        <p class="flow-text">Damos respuesta a cualquier problema en el area de soporte tecnico o desarrollo de software que tengas,<br>solo necesitas acudir a nuestra sucursal e inmediatamente te atenderemos.</p>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card indigo lighten-5">
-                            <div class="card-image">
-                                <img src="assets/media/img/support.svg" alt="" class="responsive-img" />
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title orange-text text-accent-4">Soporte Técnico</span>
-                                <hr>
-                                <p>Reparamos cualquier equipo de computo de cualquier marca con el que tengas problemas, desde computadoras de escritorio, tablets, smartphones, impresoras, etc.</p>
+        <section>
+            <div class="container">
+                <div class="valign-wrapper" id="servicios">
+                    <div class="row">
+                        <div class="col s12 center-align">
+                            <h3>¿Que hacemos?</h3>
+                            <hr>
+                            <p class="flow-text">Damos respuesta a cualquier problema en el area de soporte tecnico o desarrollo de software que tengas,<br>solo necesitas acudir a nuestra sucursal e inmediatamente te atenderemos.</p>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card indigo lighten-5">
+                                <div class="card-image">
+                                    <img src="assets/media/img/support.svg" alt="" class="responsive-img" />
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title orange-text text-accent-4">Soporte Técnico</span>
+                                    <hr>
+                                    <p>Reparamos cualquier equipo de computo de cualquier marca con el que tengas problemas, desde computadoras de escritorio, tablets, smartphones, impresoras, etc.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card pink lighten-5">
-                            <div class="card-image">
-                                <img src="assets/media/img/webDesign.svg" alt="" class="responsive-img" />
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title orange-text text-accent-4">Desarrollo Web</span>
-                                <hr>
-                                <p>Desarrollamos y creamos diseños de paginas web de acuerdo a tu negocio. Hacemos un estudio de negocio de tu producto y te ponemos en las mejores posiciones de SEO de Google.</p>
+                        <div class="col s12 m4">
+                            <div class="card pink lighten-5">
+                                <div class="card-image">
+                                    <img src="assets/media/img/webDesign.svg" alt="" class="responsive-img" />
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title orange-text text-accent-4">Desarrollo Web</span>
+                                    <hr>
+                                    <p>Desarrollamos y creamos diseños de paginas web de acuerdo a tu negocio. Hacemos un estudio de negocio de tu producto y te ponemos en las mejores posiciones de SEO de Google.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card deep-purple lighten-5">
-                            <div class="card-image center">
-                                <img src="assets/media/img/software.svg" alt="" class="responsive-img" id="software" />
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title orange-text text-accent-4">Desarrollo de software</span>
-                                <hr>
-                                <p>La parte mas importante de un equipo de computo es el software, en el caso de que requieras algun programa especial para tu empresa o negocio, nosotros lo realizamos y te ayudamos a capacitar a tus empleados si es necesario.</p>
+                        <div class="col s12 m4">
+                            <div class="card deep-purple lighten-5">
+                                <div class="card-image center">
+                                    <img src="assets/media/img/software.svg" alt="" class="responsive-img" id="software" />
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title orange-text text-accent-4">Desarrollo de software</span>
+                                    <hr>
+                                    <p>La parte mas importante de un equipo de computo es el software, en el caso de que requieras algun programa especial para tu empresa o negocio, nosotros lo realizamos.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section id="contacto">
+            <div class="blue-grey darken-4 grey-text text-lighten-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 center-align">
+                            <h3>Contáctanos</h3>
+                            <hr>
+                            <p class="flow-text">
+                                Visita nuestra sucursal matriz donde contamos con todo lo que necesitas.
+                            </p>
+                            <h5 class="blue-text text-accent-1">Ayuntamiento 157, Del. Coyoacan, Col. Santa Catarina C.P. 04310 Ciudad de México, CDMX</h5>
+                        </div>
+                    </div>
+                </div>
+                <div id='map'></div>
+            </div>
+        </section>
     </main>
-
+    <footer class="page-footer blue-grey darken-4 grey-text text-lighten-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h3 class="white-text">Redes Sociales</h3>
+                    <hr>
+                    <h6 class="grey-text text-lighten-4">Puedes contactarnos si tienes alguna duda de nuestro servicio por nuestras redes sociales, yendo a nuestra sede principal o enviandonos un correo.</h6>
+                </div>
+                <div class="col m4 offset-m2 l2 offset-l2 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3 valign-wrapper" href="#!"><span class="mdi mdi-facebook-box mdi-48px blue-text text-accent-1"></span>Mr. Enginner</a></li>
+                        <li><a class="grey-text text-lighten-3 valign-wrapper" href="#!"><span class="mdi mdi-instagram mdi-48px pink-text text-accent-1"></span> Mr. Enginner</a></li>
+                    </ul>
+                </div>
+                <div class="col m4 offset-m2 l2 offset-l0 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3 valign-wrapper" href="#!"><span class="mdi mdi-twitter-box mdi-48px light-blue-text text-accent-1"></span>@Mr.Enginner</a></li>
+                        <li><a class="grey-text text-lighten-3 valign-wrapper" href="mailto:Mr.Engineer@mrengineer.com"><span class="mdi mdi-email mdi-48px orange-text text-accent-1"></span>Correo Electrónico</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright right-align">
+            <div class="container">
+                © 2014 Copyright Mr. Enginner
+            </div>
+        </div>
+    </footer>
     <!-- Scripts -->
     <script src="assets/materialize/js/materialize.min.js"></script>
     <script src="assets/js/init.js"></script>
+    <script src="assets/sdk/tomtom.min.js"></script>
+    <script src="assets/js/tomtomMaps.js"></script>
 </body>
 
 </html>

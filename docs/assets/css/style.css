@@ -16,6 +16,10 @@ ul.lista li {
     padding-top: 20px;
 }
 
+#servicios {
+    margin-bottom: 2%;
+}
+
 #logo {
     margin: 4% 0;
 }
@@ -24,8 +28,9 @@ ul.lista li {
     margin-top: 10%;
 }
 
-#software {
-    max-width: 95%;
+#map {
+    height: 50vh;
+    width: auto;
 }
 
 
