@@ -24,6 +24,10 @@ ul.lista li {
     margin-top: 10%;
 }
 
+#software {
+    max-width: 95%;
+}
+
 
 /* Media query for Mobile */
 
