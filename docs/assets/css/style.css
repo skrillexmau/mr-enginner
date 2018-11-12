@@ -4,6 +4,22 @@ ul.lista li {
     font-size: 20px;
 }
 
+.bakgroundColor {
+    background-image: linear-gradient(rgba(245, 245, 245, 1), rgba(187, 222, 251, 1))
+}
+
+#headerRow {
+    margin-bottom: 0%;
+}
+
+#quienesSomos {
+    padding-top: 20px;
+}
+
+#logo {
+    margin: 4% 0;
+}
+
 #world {
     margin-top: 10%;
 }
@@ -14,6 +30,10 @@ ul.lista li {
 @media only screen and (max-width: 600px) {
     nav .brand-logo {
         font-size: 1.7rem;
+    }
+    #logo {
+        margin-top: 18%;
+        margin-bottom: 14%;
     }
 }
 
