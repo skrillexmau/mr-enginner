@@ -1,0 +1,40 @@
+Estructura:
+	Docs folder : Esto es para que se pueda levantar la página desde Github Pages
+		|
+		|
+		 -- index.html: El archivo principal donde está el enmaquetado de la página
+		|
+		|
+		 -- assets/
+		 	  |
+		 	  |
+		 	   -- css/style.css - Estilos personalizados de la página. Aquí se modifican las clases y/o id's de Materialize
+			  |
+		 	  |
+		 	   -- js/
+		 	       |
+		 	       |
+		 	        -- init.js - Se inicializan todos los componentes de Materialize y se ejecutan acciones u opciones para funciones del frontend
+		 	       |
+		 	       |
+		 	        -- tomtomMaps.js - Se inicializa el mapa de la página y se le parametros de como se debe visualizar
+			  |
+		 	  |
+		 	   -- materialize - Framework para los estilos de la página
+			  |
+		 	  |
+		 	   -- media
+		 	       |
+		 	       |
+		 	        -- img / - Aquí van todas las imagenes que se encuentran en la página
+ 			 	        |
+			 	        |
+			 	         -- favicon/favicon.ico - Icono que aparecerá en la pestaña del navegador
+			 	        |
+			 	        |
+			 	         -- Logo.png - Logotipo de la empresa
+			  |
+		 	  |
+		 	   -- sdk - Aquí está el framework tomtomMaps y su codigo de uso.
+
+  
